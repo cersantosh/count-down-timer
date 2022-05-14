@@ -1,11 +1,12 @@
-
 body {
     margin: 30px;
-    background-color: #1e90ff;
+    /* background-color: #1e90ff; */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #efefef;
+    
 }
 
 * {
@@ -20,6 +21,11 @@ body {
     background-color: white;
     padding: 10px 20px;
     border-radius: 10px;
+    background: #efefef;
+    box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
+        -6px -6px 10px rgba(255, 255, 255, .5),
+        6px 6px 8px rgba(255, 255, 255, .075),
+        6px 6px 10px rgba(0, 0, 0, .15);
 }
 
 .numbers {
